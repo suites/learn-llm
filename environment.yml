@@ -1,0 +1,41 @@
+name: learn-llm
+channels:
+  - conda-forge
+  - apple
+dependencies:
+  - python=3.10
+
+  # [Critical Fix] NumPy 2.0 충돌 방지
+  - numpy<2.0.0
+
+  # [System Deps]
+  - tensorflow-deps
+  - openjdk
+
+  # [Core Framework]
+  - pytorch
+  - torchvision
+  - accelerate
+
+  # [LLM & NLP]
+  - transformers>=4.30.0
+  - datasets
+  - gensim
+  - nltk
+
+  # [Data Science]
+  - pandas
+  - scikit-learn
+
+  # [Visualization]
+  - matplotlib
+  - seaborn
+
+  # [IDE]
+  - jupyterlab
+
+  # [Pip Packages]
+  - pip:
+      - tensorflow-macos
+      - tensorflow-metal
+      - konlpy

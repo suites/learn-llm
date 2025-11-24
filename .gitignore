@@ -1,0 +1,27 @@
+# 1. Virtual Environments (가상환경 절대 금지)
+env/
+venv/
+.conda/
+anaconda3/
+
+# 2. Python Cache & Logs
+__pycache__/
+*.py[cod]
+*.log
+.ipynb_checkpoints/
+
+# 3. Data & Models (대용량 파일 금지)
+data/
+dataset/
+models/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+
+# 4. OS & IDE Config
+.DS_Store
+.vscode/
+.idea/
+.env
