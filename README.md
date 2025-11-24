@@ -34,14 +34,12 @@ source ~/.zshrc
 conda deactivate
 mamba env update --file environment.yml --prune
 ```
-
-### Activation
-
-```bash
-conda activate learn-llm
-```
-
 -----
+
+### 가상환경 활성화
+```bash
+python -m ipykernel install --user --name=learn-llm --display-name "Python (learn-llm)"
+```
 
 ## 3. JupyterLab
 
