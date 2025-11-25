@@ -39,3 +39,4 @@ dependencies:
       - tensorflow-macos
       - tensorflow-metal
       - konlpy
+      - kss
